@@ -1,6 +1,6 @@
 /*------------------MOBILE------------*/
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 768px) {
 
     .top-frame {
         position: absolute;
