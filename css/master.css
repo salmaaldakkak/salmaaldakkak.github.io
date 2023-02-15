@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "badunicorn";
+    src: url(../fonts/badunicorn/badunicorndemoregular-bvwx-webfont.woff);
+}
+
+@font-face {
+    font-family: "bunch";
+    src: url(../fonts/bunch/bunchblossomspersonaluse-0na4-webfont.woff);
+}
+
+@font-face {
+    font-family: "caviar";
+    src: url(../fonts/UTMCaviar.woff);
+}
+
+@font-face {
+    font-family: 'FAMILY_NAME';
+    src: url(FONT_FILE_NAME.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "pangolin";
+    src: url(../fonts/pangolin/Pangolin-Regular.woff2) format(woff2);
+}
+
+:root {
+    --mainColor: #cf8cd5;
+    --secondColor: #f5f5f5;
+    --mainColor2: #9f2f66;
+    --black: #000000
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: var(--mainColor);
+    color: #ffffff;
+    background-color: var(--mainColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    color: var(--mainColor);
+}
+
+/*
+font-family: 'Delius Swash Caps', cursive;
+font-family: 'Pangolin', cursive;
+*/
+body {
+    font-family: 'Pangolin', pangolin;
+    text-transform: capitalize;
+    background-color: var(--secondColor);
+    color: (var(--black))
+}
+
+
+/*--------------------------- DESKTOP --------------------------------------- */
+@media only screen and (min-width: 1100px) {
+
+
+
+    .illustrations-content .top-frame {
+        position: absolute;
+        background-image: url(../Imgs/prpl-bg.jpg);
+        background-size: 50%;
+        background-color: var(--mainColor);
+        width: 100%;
+        height: 12vw;
+        top: 0vw;
+        left: 0vw;
+        z-index: -10;
+    }
+
+    .top-frame {
+        position: absolute;
+        background-image: url(../Imgs/prpl-bg.jpg);
+        background-size: 50%;
+        background-color: var(--mainColor);
+        width: 100%;
+        height: 12vw;
+        top: 0vw;
+        left: 0vw;
+        z-index: -10;
+
+
+    }
+
+
+    .page-title {
+        position: absolute;
+        width: fit-content;
+        top: -2vw;
+        left: 35.3vw;
+        font-size: 5.2vw;
+        z-index: 20;
+        color: var(--black);
+        transition-timing-function: ease-in;
+    }
+
+    .page-title:hover {
+        font-size: 5.7vw;
+        left: 33.5vw;
+        top: -3vw;
+    }
+
+
+
+    .page-dsc {
+        position: absolute;
+        width: 60vw;
+        top: 7vw;
+        left: 36.9vw;
+        font-size: 1.9vw;
+        color: var(--black);
+    }
+
+    .header-text {
+        position: relative;
+        top: .5vw;
+    }
+
+    .circle-frame {
+        position: absolute;
+        top: 4.3vw;
+        left: 14vw;
+        display: inline-block;
+        width: 14vw;
+        height: 14vw;
+        background-image: url(../Imgs/prpl-bg.jpg);
+        background-size: 50%;
+        background-color: var(--mainColor);
+        z-index: 10;
+        border-radius: 250px;
+
+    }
+
+
+    .circle {
+        position: absolute;
+        background-color: var(--secondColor);
+        top: 5.2vw;
+        left: 14.75vw;
+        display: inline-block;
+        width: 12.4vw;
+        height: 12.4vw;
+        z-index: 20;
+        border-radius: 250px;
+    }
+
+    .header-logo {
+        position: absolute;
+        display: inline-block;
+        width: 10.72vw;
+        z-index: 1000;
+        top: 7.8vw;
+        left: 15.7vw;
+        transition-timing-function: ease;
+    }
+
+    .header-logo:hover {
+        width: 11.2vw;
+        top: 7.7vw;
+        left: 15.4vw;
+    }
+
+    .circular-logo {
+        position: absolute;
+        top: -4vw;
+        left: 6vw;
+    }
+
+
+
+    .instagram,
+    .linkedin,
+    .behance {
+        position: absolute;
+        width: 3vw;
+        display: inline-block;
+        right: 1vw;
+        top: 1vw;
+    }
+
+    .instagram {
+        position: absolute;
+        right: 5vw;
+        width: 2.2vw;
+        top: .8vw;
+    }
+
+    .instagram:hover {
+        width: 2.8vw;
+
+    }
+
+    .behance {
+        position: absolute;
+        right: 9vw;
+        width: 2.6vw;
+    }
+
+    .behance:hover {
+        width: 3.3vw;
+    }
+
+
+    .linkedin {
+        position: absolute;
+        width: 2vw;
+        top: .7vw;
+    }
+
+    .linkedin:hover {
+        width: 2.7vw;
+    }
+
+
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 15vw;
+        font-size: 2.5vw;
+        color: var(--black);
+        text-decoration: none;
+        list-style: none;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    ul.flex {
+        padding: 2vw;
+    }
+
+    .flex>li {
+        text-decoration: none;
+        display: flex;
+        width: 20vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: var(--black);
+        margin: 2vw;
+
+    }
+
+
+
+    .flex>li>a>img {
+        width: 11vw;
+        /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .5);*/
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+
+    .flex>li>a>img:hover {
+        width: 14vw;
+    }
+
+    .illustrations {
+        position: relative;
+    }
+
+
+
+
+
+    .about {
+        display: flex;
+        position: absolute;
+        background-image: url(../Imgs/prpl-bg.jpg);
+        background-size: 50%;
+        height: fit-content;
+        width: 100%;
+        z-index: -10;
+        top: 60vw;
+        left: 0;
+        font-size: 2.5vw;
+        color: var(--black);
+        padding: 5vw 10vw;
+
+    }
+
+
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>>ILLUSTRATIONS<<<<<<<<<<<<<<<<<*/
+
+    .illustrations-nav {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        top: 14vw;
+        left: -0.5vw;
+        z-index: 10000;
+
+    }
+
+    .illustrations-nav>ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .illustrations-nav>ul>li {
+
+        position: relative;
+        display: inline-block;
+        font-size: 1.5vw;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        color: var(--black);
+        background-image: url(../Imgs/prpl-bg.jpg);
+        background-size: 50%;
+        width: fit-content;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 1vw;
+    }
+
+    .illustrations-nav>ul>.ill-nav>a {
+        color: var(--secondColor);
+    }
+
+    .illustrations-nav>ul>li>a:hover {
+        color: var(--secondColor);
+    }
+
+    .gallery {
+        margin-top: 2vw;
+        position: absolute;
+        top: 20vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 95vw;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .illustrans-page>.gallery>div>img {
+        width: 100%;
+        margin: 1vw 1vw 1vw 1vw;
+        padding: 0;
+        object-fit: cover;
+        object-position: center;
+        overflow-x: hidden;
+        border-radius: 5px;
+        transition: .9s;
+    }
+
+    .illustrans-page>.gallery>div {
+        transition: 1s;
+    }
+
+    .illustrans-page>.gallery>div:hover {
+        transform: scale(1.27);
+        z-index: 100;
+    }
+}
