@@ -65,7 +65,7 @@ body {
 
 /*--------------------------- DESKTOP --------------------------------------- */
 /*@media only screen and (min-width: 1100px)*/
-@media only screen and (min-width: 1101px) {
+@media only screen and (min-width: 901px) {
 
 
 
@@ -367,10 +367,10 @@ body {
         color: var(--secondColor);
     }
 
-    .gallery {
+    .portraits-page>.gallery {
         margin-top: 2vw;
         position: absolute;
-        top: 20vw;
+        top: 31vw;
         justify-content: center;
         align-items: center;
         margin-top: 15px;
@@ -402,11 +402,48 @@ body {
     }
 
 
+    .por-info {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        top: 21vw;
+        left: 0vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+        text-transform: none;
+        opacity: 50%;
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>> TYPOGRAPHY + LOGODESIGN <<<<<<<<<<<<<<<<<*/
+    }
+
+    .por-info>span>a {
+        color: var(--mainColor);
+        opacity: 100%;
+    }
+
+    .por-info>span>a:hover {
+        color: #934ea6;
+    }
+
+
+
+
+
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>> TYPOGRAPHY + LOGODESIGN + ILLUSTRATIONS + SOME PORTRAITS<<<<<<<<<<<<<<<<<*/
+
+
+
+
+
     .typography-nav,
     .logodesign-nav,
-    .illustrations-nav {
+    .illustrations-nav,
+    .printed-nav {
         display: inline-block;
         position: absolute;
         width: 100%;
@@ -419,14 +456,16 @@ body {
 
     .typography-nav>ul,
     .logodesign-nav>ul,
-    .illustrations-nav>ul {
+    .illustrations-nav>ul,
+    .printed-nav>ul {
         display: flex;
         justify-content: center;
     }
 
     .typography-nav>ul>li,
     .logodesign-nav>ul>li,
-    .illustrations-nav>ul>li {
+    .illustrations-nav>ul>li,
+    .printed-nav>ul>li {
 
         position: relative;
         display: inline-block;
@@ -445,18 +484,22 @@ body {
 
     .typography-nav>ul>.typ-nav>a,
     .logodesign-nav>ul>.log-nav>a,
-    .illustrations-nav>ul>.ill-nav>a {
+    .illustrations-nav>ul>.ill-nav>a,
+    .printed-nav>ul>.pri-nav>a {
         color: var(--secondColor);
     }
 
     .typography-nav>ul>li>a:hover,
     .logodesign-nav>ul>li>a:hover,
-    .illustrations-nav>ul>li>a:hover {
+    .illustrations-nav>ul>li>a:hover,
+    .printed-nav>ul>.pri-nav>a:hover {
         color: var(--secondColor);
     }
 
 
-    .gallery {
+    .typography-page>.gallery,
+    .logodesign-page>.gallery,
+    .illustrations-page>.gallery {
         position: absolute;
         top: 20vw;
         justify-content: center;
@@ -470,7 +513,8 @@ body {
     }
 
     .typography-page>.gallery>div>img,
-    .logodesign-page>.gallery>div>img {
+    .logodesign-page>.gallery>div>img,
+    .illustrations-page>.gallery>div>img {
         width: 100%;
         margin: 1vw 1vw 1vw 1vw;
         padding: 0;
