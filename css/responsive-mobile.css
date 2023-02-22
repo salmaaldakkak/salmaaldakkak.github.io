@@ -586,6 +586,7 @@
     }
 
     .portraits-page>.gallery>div>img {
+        background-color: var(--mainColor);
         width: 100%;
         object-fit: cover;
         object-position: center;
@@ -729,6 +730,7 @@
     .typography-page>.gallery>div>img,
     .logodesign-page>.gallery>div>img,
     .illustrations-page>.gallery>div>img {
+        background-color: var(--mainColor);
         width: 100%;
         object-fit: cover;
         object-position: center;
