@@ -712,6 +712,7 @@ body {
     }
 
     .portraits-page>.gallery>div>img {
+        background-color: var(--mainColor);
         width: 100%;
         margin: 1vw 1vw 1vw 1vw;
         padding: 0;
@@ -846,6 +847,7 @@ body {
     .typography-page>.gallery>div>img,
     .logodesign-page>.gallery>div>img,
     .illustrations-page>.gallery>div>img {
+        background-color: var(--mainColor);
         width: 100%;
         margin: 1vw 1vw 1vw 1vw;
         padding: 0;
