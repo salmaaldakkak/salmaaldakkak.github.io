@@ -529,21 +529,16 @@
     /*------------------footer---------------------*/
     .footer {
         position: absolute;
-        top: 490vw;
+        top: 491.2vw;
         font-size: 3vw;
         text-align: right;
         justify-content: center;
-        padding-bottom: 1vw;
+        padding-bottom: 1.5vw;
         text-decoration: none;
         text-transform: none;
         opacity: 50%;
         left: 25%;
-
     }
-
-
-
-    /*>>>>>>>>>>>>>>>>>>>>>>>>portfolio<<<<<<<<<<<<<<<<<*/
 
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>portfolio<<<<<<<<<<<<<<<<<*/
