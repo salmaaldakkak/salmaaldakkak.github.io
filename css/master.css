@@ -1799,12 +1799,11 @@ body {
     }
 
 
-
-    .page-dsc {
+      .page-dsc {
         position: absolute;
         width: 45vw;
         top: 7vw;
-        left: 36.3vw;
+        left: 36.1vw;
         font-size: 1.9vw;
         color: var(--black);
     }
