@@ -641,15 +641,14 @@ body {
 
 
 
-    .page-dsc {
+  .page-dsc {
         position: absolute;
         width: 60vw;
         top: 13vw;
         left: 33vw;
-        font-size: 3.5vw;
+        font-size: 3.3vw;
         color: var(--black);
     }
-
     .header-text {
         position: absolute;
         width: 100%;
