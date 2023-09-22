@@ -1,0 +1,179 @@
+.about-check .container li {
+    list-style: none;
+    margin-bottom: 2vw;
+
+}
+
+
+.about-check input {
+    display: none;
+}
+
+.check-content {
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 481px) {
+    .about-check label {
+        width: 4vw;
+        margin: 0vw 1vw;
+        padding: .5vw .5vw .5vw .5vw;
+        height: 4vw;
+        color: var(--secondColor);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: var(--black);
+        border-radius: 100vw;
+        transition: color .5s;
+        transition-duration: .5s;
+        position: relative;
+        right: -40vw;
+        top: 27vw;
+
+    }
+}
+
+.en,
+.ar {
+    position: relative;
+    top: -5vw;
+}
+
+.about-check label:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
+
+#check-ar:checked~.container .check-gallery .ar {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .3s;
+
+}
+
+#check-ar:checked~.container .check-gallery .en {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .3s;
+
+}
+
+#check-en:checked~.container .check-gallery .en {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .3s;
+
+}
+
+#check-en:checked~.container .check-gallery .ar {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .5s;
+
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+.artopia-check .container-artopia li {
+    list-style: none;
+    margin-bottom: 2vw;
+
+}
+
+.label-arr {
+    margin: 2vw;
+}
+
+
+.artopia-check input {
+    display: none;
+}
+
+@media only screen and (min-width: 481px) {
+    .check-content-artopia {
+        font-size: 1.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -5vw;
+        right: 50vw;
+
+
+    }
+
+    .artopia-check label {
+        width: 4vw;
+        margin: 0vw 1vw;
+        padding: .5vw .5vw .5vw .5vw;
+        height: 4vw;
+        color: var(--secondColor);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: var(--black);
+        border-radius: 100vw;
+        transition: color .5s;
+        transition-duration: .5s;
+        position: relative;
+        right: -9.7vw;
+        top: 25vw;
+
+    }
+}
+
+.enn,
+.arr {
+    position: relative;
+    top: -5vw;
+}
+
+.artopia-check label:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
+
+#check-arr:checked~.container-artopia .check-gallery-artopia .arr {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .3s;
+
+}
+
+#check-arr:checked~.container-artopia .check-gallery-artopia .enn {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .3s;
+
+}
+
+#check-enn:checked~.container-artopia .check-gallery-artopia .enn {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .3s;
+
+}
+
+#check-enn:checked~.container-artopia .check-gallery-artopia .arr {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .5s;
+
+}
