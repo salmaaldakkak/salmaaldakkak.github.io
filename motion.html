@@ -105,62 +105,82 @@
 
 
         </div>
-        <div class="acontact-footer">
-
-            <div class="contact" id="contact">
-                <div class=contact-items><img src="imgs/icons/contact.webp" alt="" width="450px"></div>
-                <div class="text"><a href="mailto:salma.aldakkak@gmail.com"><img src="imgs/icons/mail.webp"
-                            alt=""></a><a href="https://www.behance.net/salma_aldakkak" target="_blank"><img
-                            src="imgs/icons/behance.webp" alt=""></a><a href="https://www.instagram.com/salma_aldakkak"
-                        target="_blank"><img src="imgs/icons/ig.webp" alt=""></a><a
-                        href="https://www.linkedin.com/in/salma-aldakkak/" target="_blank"><img
-                            src="imgs/icons/linkedin.webp" alt=""></a>
 
 
-                </div>
+        <div class="contact" id="contact">
+            <div class=contact-items><img src="imgs/icons/contact.webp" alt="" width="450px"></div>
+            <div class="text"><a href="mailto:salma.aldakkak@gmail.com"><img src="imgs/icons/mail.webp" alt=""></a><a
+                    href="https://www.behance.net/salma_aldakkak" target="_blank"><img src="imgs/icons/behance.webp"
+                        alt=""></a><a href="https://www.instagram.com/salma_aldakkak" target="_blank"><img
+                        src="imgs/icons/ig.webp" alt=""></a><a href="https://www.linkedin.com/in/salma-aldakkak/"
+                    target="_blank"><img src="imgs/icons/linkedin.webp" alt=""></a>
+
 
             </div>
 
-
-            <div class="contact-mobile" id="contact">
-                <div class=contact-items><img src="imgs/icons/contact.webp" alt="" width="450px" height=""></div>
-                <div class="text"><a href="mailto:salma.aldakkak@gmail.com"><img src="imgs/icons/contact/mail.webp"
-                            alt="" width="" height=""></a><a href="https://www.behance.net/salma_aldakkak"
-                        target="_blank"><img src="imgs/icons/contact/behance.webp" alt="" width="" height=""></a><a
-                        href="https://www.instagram.com/salma_aldakkak" target="_blank"><img
-                            src="imgs/icons/contact/ig.webp" alt="" width="" height=""></a><a
-                        href="https://www.linkedin.com/in/salma-aldakkak/" target="_blank"><img
-                            src="imgs/icons/contact/linkedin.webp" alt="" width="" height=""></a>
+        </div>
 
 
-                </div>
+        <div class="contact-mobile" id="contact">
+            <div class=contact-items><img src="imgs/icons/contact.webp" alt="" width="450px" height=""></div>
+            <div class="text"><a href="mailto:salma.aldakkak@gmail.com"><img src="imgs/icons/contact/mail.webp" alt=""
+                        width="" height=""></a><a href="https://www.behance.net/salma_aldakkak" target="_blank"><img
+                        src="imgs/icons/contact/behance.webp" alt="" width="" height=""></a><a
+                    href="https://www.instagram.com/salma_aldakkak" target="_blank"><img
+                        src="imgs/icons/contact/ig.webp" alt="" width="" height=""></a><a
+                    href="https://www.linkedin.com/in/salma-aldakkak/" target="_blank"><img
+                        src="imgs/icons/contact/linkedin.webp" alt="" width="" height=""></a>
+
 
             </div>
 
-
-            <div class="footer">
-                &#169; 2023 Designed by Salma Aldakkak
-            </div>
+        </div>
 
 
-            <nav class="scroll">
-                <a href="#top" class="link bg-red">الأعمال</a>
-
-                <a href="#about" class="link bg-blue">عنِّي</a>
-
-                <a href="#contact" class="link bg-green">التواصل</a>
-            </nav>
+        <div class="footer">
+            &#169; 2023 Designed by Salma Aldakkak
+        </div>
 
 
+        <nav class="scroll">
+            <a href="#top" class="link bg-red">الأعمال</a>
 
+            <a href="#about" class="link bg-blue">عنِّي</a>
 
+            <a href="#contact" class="link bg-green">التواصل</a>
+        </nav>
 
 
 
 
 
-            <script src="js\jquery-3.3.1.min.js"></script>
-            <script src="js\main.js"></script>
+    </div>
+
+
+    <script src="js\jquery-3.3.1.min.js"></script>
+    <script>
+
+        $(function () {
+            'use strict';
+            $('.language span').on('click', function () {
+                $(':root').css('--mainColor', $(this).data('color'));
+            });
+        });
+
+        document.querySelectorAll('.video-container video').forEach(vid => {
+            vid.onclick = () => {
+                document.querySelector('.popup-video').style.display = 'block';
+                document.querySelector('.popup-video video').src = vid.getAttribute('src');
+
+            }
+        });
+        document.querySelector('.popup-video span').onclick = () => {
+            document.querySelector('.popup-video').style.display = 'none';
+            video.setAttribute = 'muted';
+        }
+
+    </script>
+
 </body>
 
 </html>
