@@ -1327,6 +1327,7 @@ body {
     /*>>>>>>>>>>>>>>>>>>>>>>>>portfolio<<<<<<<<<<<<<<<<<*/
 
 
+
     .portfolio-nav {
         background-color: var(--secondColor);
         align-items: center;
@@ -1348,7 +1349,6 @@ body {
         text-align: center;
         z-index: 10000;
         font-family: 'pangolin', pangolin;
-        width: 90vw;
 
 
 
@@ -1357,7 +1357,6 @@ body {
 
     .portfolio-nav span {
         font-family: 'Noto Sans Arabic', sans-serif;
-        font-weight: bolder;
     }
 
     .portfolio-nav>ul {
@@ -1366,24 +1365,24 @@ body {
 
     .portfolio-nav>ul>li {
 
-        font-size: 3.2vw;
+        font-size: 3.5vw;
         background: var(--bg) var(--mainColor);
         background-blend-mode: screen;
         background-size: 100%;
         background-color: var(--mainColor);
         border-radius: 5vw;
-        padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+        padding: 1.5vw;
         text-decoration: none;
         display: flex;
         width: fit-content;
         flex-wrap: wrap;
         justify-content: center;
         color: var(--black);
-        line-height: 1.15;
-        margin-top: 10px;
-        margin-right: 10px;
+        margin: 1vw;
+        line-height: 1.2;
 
     }
+
 
     /*portraits*/
     .portraits-page .portfolio-nav>ul>.por-nav>a,
