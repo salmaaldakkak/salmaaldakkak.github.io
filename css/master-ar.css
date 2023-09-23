@@ -549,7 +549,7 @@ html {
     line-height: 2.9vw;
     /* --mainColor: #b77ec7;*/
     /*#a1bde4;*/
-    --mainColor: #fff8ef;
+    --mainColor: var(--lightPink);
 
     /*#fff8ef*/
     /*beige*/
@@ -558,9 +558,12 @@ html {
     /* --secondColor: #f5f5f5;*/
     --secondColor: white;
     --pink: #ff9dc2;
+    --lightPink: #ffe5ef;
     --mainColor2: #ef476f;
     --black: #333333;
-    --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --green: #DEF9D8;
+    /*--shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;*/
+    --shadow: ;
     --shadow2: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     --shadow3: rgba(60, 64, 67, 8) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     /* --bg:
@@ -712,7 +715,7 @@ body {
         background-color: var(--mainColor);
         z-index: 10;
         border-radius: 250px;
-        box-shadow: var(--shadow);
+        box-shadow: 10;
 
     }
 
@@ -720,16 +723,18 @@ body {
     .circle {
         position: absolute;
         background-color: var(--secondColor);
-        top: 6.5vw;
-        /*كانت 6 ونص*/
-        left: 43.5vw;
-        /*كانت 8 ونص*/
+        top: 5vw;
+        /*رجعيييييه 6.5 ضروري وبطلي لعب عشان يبقا في بلانس مع الفريم واللوجو رجعيه */
+        left: 42.7vw;
+        /*رجعيييييه 43.5 ضروري وبطلي لعب عشان يبقا في بلانس مع الفريم واللوجو رجعيه */
         display: block;
-        width: 21vw;
-        height: 21vw;
+        width: 23vw;
+        /*رجعيييييه 21 ضروري وبطلي لعب عشان يبقا في بلانس مع الفريم واللوجو رجعيه */
+        height: 23vw;
         z-index: 20;
         border-radius: 250px;
         box-shadow: var(--shadow);
+
     }
 
     .header-logo {
@@ -740,6 +745,7 @@ body {
         /*كانت 10 ونص*/
         left: 45.5vw;
         transition-timing-function: ease;
+
     }
 
     .icon {
@@ -753,6 +759,7 @@ body {
         animation-direction: alternate;
         animation-timing-function: ease;
         transform-origin: bottom left;
+
     }
 
     @keyframes rotate {
@@ -771,7 +778,8 @@ body {
     .circular-logo {
         position: relative;
         top: -5vw;
-        left: -7vw;
+        left: -9vw;
+        scale: 1.1;
     }
 
 
@@ -845,6 +853,7 @@ body {
         /*20*/
         transition-duration: .5s;
         transition-timing-function: ease;
+
     }
 
     .flex>li>.box>a>img:hover {
@@ -962,6 +971,7 @@ body {
         position: absolute;
         justify-content: center;
         top: 10vw;
+
     }
 
     .about-check label {
