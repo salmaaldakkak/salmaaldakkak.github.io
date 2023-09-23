@@ -650,6 +650,7 @@ body {
 
 
 
+
     .page-dsc {
         position: absolute;
         width: 75vw;
@@ -675,7 +676,7 @@ body {
     }
 
     .page-dsc span {
-        font-size: 4.23vw;
+        font-size: 3.95vw;
         font-family: 'pangolin';
 
     }
@@ -685,6 +686,8 @@ body {
         width: fit-content;
         top: 3vw;
     }
+
+
 
 
 
