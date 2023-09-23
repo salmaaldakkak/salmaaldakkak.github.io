@@ -1,3 +1,8 @@
+.contact-image,
+.Salma-image {
+    pointer-events: none;
+}
+
 /*particles:*/
 @media only screen and (min-width: 1081px) {
     .particle {
@@ -650,8 +655,7 @@ body {
 
 
 
-
- .page-dsc {
+    .page-dsc {
         position: absolute;
         width: 90vw;
         padding-top: 25vw;
@@ -664,6 +668,7 @@ body {
         align-items: center;
         text-align: center;
     }
+
 
     .page-dsc {
 
@@ -679,7 +684,7 @@ body {
     }
 
     .page-dsc span {
-        font-size: 3.95vw;
+        font-size: 4vw;
         font-family: 'pangolin';
 
     }
@@ -689,8 +694,6 @@ body {
         width: fit-content;
         top: 3vw;
     }
-
-
 
 
 
@@ -1329,7 +1332,6 @@ body {
 
 
 
-
     /*>>>>>>>>>>>>>>>>>>>>>>>>portfolio<<<<<<<<<<<<<<<<<*/
 
 
@@ -1551,6 +1553,7 @@ body {
         top: 88vw;
         width: 90vw;
     }
+
 
     /* دول الكونتاكت والفوتر في الصفحات المختلفة **************/
 
