@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "pangolin";
+    src: url(../fonts/pangolin/Pangolin-Regular.woff2) format(woff2);
+}
+
+@media only screen and (max-width: 700px) {
+    .updating {
+        font-family: 'Pangolin', pangolin;
+        position: absolute;
+        top: 74vw;
+        font-size: 8vw;
+        color: var(--black);
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        font-weight: bolder;
+        left: 20vw;
+        line-height: .8;
+
+    }
+
+    .updating-gif {
+        width: 80vw;
+        position: relative;
+        top: 5vw;
+        left: 0vw;
+    }
+
+    .updating span {
+        font-family: 'Noto Sans Arabic', sans-serif;
+        font-size: 5vw;
+        direction: rtl;
+        font-weight: lighter;
+    }
+}
+
+
+@media only screen and (min-width: 701px) {
+    .updating {
+        font-family: 'Pangolin', pangolin;
+        position: absolute;
+        top: 56vw;
+        font-size: 5vw;
+        color: var(--mainColor2);
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        font-weight: bolder;
+        left: 32vw;
+        line-height: .7;
+
+    }
+
+    .updating-gif {
+        width: 75vw;
+        position: relative;
+        top: 0vw;
+    }
+
+    .updating span {
+        font-family: 'Noto Sans Arabic', sans-serif;
+        font-size: 3vw;
+        direction: rtl;
+        font-weight: lighter;
+
+    }
+}
