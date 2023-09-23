@@ -1497,7 +1497,7 @@ body {
 
     .portraits-page .gallery {
         position: absolute;
-        top: 87vw;
+        top: 85vw;
         justify-content: center;
         align-items: center;
         margin-top: 20vw;
@@ -1538,17 +1538,17 @@ body {
     }
 
     .illustrations-page>.gallery {
-        top: 89vw;
+        top: 87vw;
         width: 90vw;
     }
 
     .typography-page>.gallery {
-        top: 84vw;
+        top: 82vw;
         width: 90vw;
     }
 
     .logodesign-page>.gallery {
-        top: 90vw;
+        top: 88vw;
         width: 90vw;
     }
 
