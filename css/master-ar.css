@@ -698,7 +698,7 @@ body {
         position: absolute;
         top: 5vw;
         /*كانت 5*/
-        left: 42.5vw;
+        left: 42vw;
         display: block;
         width: 24vw;
         height: 24vw;
@@ -719,7 +719,7 @@ body {
         background-color: var(--secondColor);
         top: 6.5vw;
         /*كانت 6 ونص*/
-        left: 44vw;
+        left: 43.5vw;
         /*كانت 8 ونص*/
         display: block;
         width: 21vw;
@@ -735,13 +735,13 @@ body {
         z-index: 1000;
         top: 10.5vw;
         /*كانت 10 ونص*/
-        left: 46vw;
+        left: 45.5vw;
         transition-timing-function: ease;
     }
 
     .icon {
         width: 4.1vw;
-        left: 49vw;
+        left: 48.5vw;
         top: 13vw;
         /*كانت 13*/
         animation-name: rotate;
