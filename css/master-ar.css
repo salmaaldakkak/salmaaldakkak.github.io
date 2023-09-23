@@ -1363,6 +1363,7 @@ body {
 
     .portfolio-nav span {
         font-family: 'Noto Sans Arabic', sans-serif;
+        font-weight: bolder;
     }
 
     .portfolio-nav>ul {
