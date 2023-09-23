@@ -32,4 +32,8 @@ document.querySelector('.popup-photo span').onclick = () => {
 }
 
 
-
+$(document).ready(function () {
+    $('img').bind('contextmenu', function (e) {
+        return false;
+    });
+});
