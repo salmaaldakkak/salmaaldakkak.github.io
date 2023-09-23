@@ -519,6 +519,11 @@
     src: url(../fonts/pangolin/Pangolin-Regular.woff2) format(woff2);
 }
 
+
+
+
+
+
 @font-face {
     font-family: "noto";
     src: url(../fonts/noto/NotoSansArabic-Regular.ttf) format(ttf);
@@ -1022,6 +1027,7 @@ body {
         line-height: 1.5;
         direction: rtl;
         padding-bottom: 97vw;
+
     }
 
 
@@ -1050,8 +1056,13 @@ body {
         }
     }
 
-    .enn {
+    .artopia-check .enn {
         direction: ltr;
+        font-family: 'pangolin', pangolin;
+        font-family: 'pangolin', pangolin;
+    }
+
+    .label-enn {
         font-family: 'pangolin', pangolin;
     }
 
@@ -2525,6 +2536,9 @@ body {
         display: none;
     }
 
+    .label-en {
+        font-family: 'pangolin', pangolin;
+    }
 
 
     /*--------------------------- ARTOPIA CHECKKK----------------------------*/
@@ -2579,6 +2593,10 @@ body {
 
     .enn {
         direction: ltr;
+        font-family: 'pangolin', pangolin;
+    }
+
+    .label-enn {
         font-family: 'pangolin', pangolin;
     }
 
